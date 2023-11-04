@@ -91,11 +91,37 @@ li {
 }
 
 .left-floated-image {
+    float: left;
     width: 375;
     height: 350;
 }
 
 .image-caption {
     font-style: italic;
+    font-weight: bolder;
     font-size: 18px;
+}
+
+.hobbies-section {
+    margin-top: 20px;
+}
+
+.hobbies-section h4 {
+    margin-bottom: 0;
+}
+
+.hobbies-section ul {
+    margin-top: 0;
+}
+
+button[button-style="first"] {
+    color: rgb(0, 66, 0);
+    border-color: #ACBDA1;
+    border-style: groove;
+}
+
+button[button-style="second"] {
+    color: rgb(0, 66, 0);
+    border-color: #ACBDA1;
+    border-style: groove;
 }
